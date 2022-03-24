@@ -1,0 +1,26 @@
+{
+    "name": "ekok/php-jwt",
+    "description": "PHP JWT",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Eko Kurniawan",
+            "email": "setiawanegho@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekok\\JWT\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "~4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0"
+    }
+}
